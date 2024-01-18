@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Book Appointment
+        </title>
+        <style>
+            form{
+            background-color: lightgrey;
+            width: 300px;
+            border: 10px solid green;
+            padding: 20px;
+            margin: 20px;
+        
+            }
+            body{
+                background-color: gainsboro;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div style="background-color: darkblue;"><br><hr></div>
+        <div style="background-color: lavender;">
+            <hr>
+            <a style="margin-left: 5%;" href="Home.html.html" target="_blank">Home</a>
+            <a style="margin-left: 16%;" href="about us.html.html" target="_blank">About us</a>
+            <a style="margin-left: 18%;" href="contact info.html.html" target="_blank">Contact us</a>
+            <a style="margin-left: 18%;" href="feedback.html.html" target="_blank">Feedback</a>
+            <hr>
+        </div>
+        <center>
+            <form onsubmit="alert('Thank You For Your Response.We Will Contact You Shortly.')">
+                First name* : <input type="text" required autofocus placeholder="Enter your first name" onfocus="myFunction(this)"><br><br>
+                Last name   : <input type="text" placeholder="Enter your last name"><br><br>
+                Address     : <input type="text" placeholder="Enter your Address"><br><br>
+                Country:
+                <select>
+                    <option>select</option>
+                    <option>India</option>
+                    <option>France</option>
+                    <option>USA</option>
+                    <option>China</option>
+
+
+                </select><br><br>
+                Email       : <input type="email" placeholder="Enter your e-mail id"><br><br>
+                Phone       : <input type="tel" placeholder="Enter your Phone Number" onfocus="myFunction(this)"><br><br>
+                Type        : <input type="radio" name="type">Family <input type="radio" name="type">Bachelors <br><br>
+                No of Persons :<select>
+                    <option>select</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>more</option>
+                </select><br><br>
+                No of Bed Rooms   : <input type="radio" name="bed">1 <input type="radio" name="bed">2 <input type="radio" name="bed">3 <input type="radio" name="bed">4<br><br>
+                <input type="checkbox">I agree with your terms and polices<br><br>
+                <input type="submit"><br><br>
+                <script>
+                    function myFunction(x) {
+                        x.style.background="yellow"; 
+                        x.value = x.value.toUpperCase();
+                    }
+                </script>
+                    
+            </form>
+        </center>
+    </body>
+</html>

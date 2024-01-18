@@ -1,0 +1,15 @@
+body{
+    
+    text-align: center;
+}
+div{
+    border: 5px solid rgb(12, 22, 123);
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+form{
+    color:rgb(14, 169, 42);
+    background-color:rgb(56, 99, 155);
+    padding: 10px;
+}
